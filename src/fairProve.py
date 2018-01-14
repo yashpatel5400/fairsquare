@@ -256,6 +256,7 @@ def proveFairness(p, output, epsilon, finmax, randomize, infmax, plot, z3qe, num
     if output is not None:
         log.message(msg)
         log.close()
+    return msg
 
 def main():
 
